@@ -1,6 +1,6 @@
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 24px;
   line-height: 24px;
   font-weight: 400;
 
@@ -13,6 +13,20 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+p,
+dt {
+  font-weight: bold;
+}
+
+dl,
+dd {
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+dd {
+  margin-bottom: 1em;
 }
 
 a {
@@ -61,7 +75,7 @@ h2 {
 }
 
 .card {
-  padding: 2em;
+  padding: 2em 0;
 }
 
 .read-the-docs {
